@@ -14,6 +14,9 @@ public class MovingSphere : MonoBehaviour
     [SerializeField]
     Rect allowedArea = new Rect(-5f, -5f, 10f, 10f);
 
+    [SerializeField, Range(0.1f, 1f)]
+    private float bounciness = 0.5f;
+
     Vector3 velocity;
     void Start()
     {
@@ -34,14 +37,14 @@ public class MovingSphere : MonoBehaviour
         Vector3 desiredVelocity = new Vector3(playerInput.x, 0f, playerInput.y) * maxSpeed;
 
         float maxSpeedChange = maxAcceleration * Time.deltaTime;
-        if (velocity.x < desiredVelocity.x)
-        {
-            velocity.x = Mathf.Min(velocity.x + maxSpeedChange, desiredVelocity.x);
-        }
-        else
-        {
-            velocity.x = Mathf.Min(velocity.x - maxSpeedChange, desiredVelocity.x);
-        }
+        // if (velocity.x < desiredVelocity.x)
+        // {
+        //     velocity.x = Mathf.Min(velocity.x + maxSpeedChange, desiredVelocity.x);
+        // }
+        // else if(velocity.x > desiredVelocity.x)
+        // {
+        //     velocity.x = Mathf.Min(velocity.x - maxSpeedChange, desiredVelocity.x);
+        // }
 
         velocity.x = Mathf.MoveTowards(velocity.x, desiredVelocity.x, maxSpeedChange);
         velocity.z = Mathf.MoveTowards(velocity.z, desiredVelocity.z, maxSpeedChange);
@@ -55,28 +58,28 @@ public class MovingSphere : MonoBehaviour
         if (newPosition.x < allowedArea.xMin)
         {
             newPosition.x = allowedArea.xMin;
-            velocity.x = 0;
+            velocity.x *= -1f * bounciness;
         }
         else if (newPosition.x > allowedArea.xMax)
         {
             newPosition.x = allowedArea.xMax;
-            velocity.x = 0;
+            velocity.x *= -1f * bounciness;
         }
 
 
         if (newPosition.z < allowedArea.yMin)
         {
             newPosition.z = allowedArea.yMin;
-            velocity.z = 0;
+            velocity.z *= -1f * bounciness;
         }
         else if (newPosition.z > allowedArea.yMax)
         {
             newPosition.z = allowedArea.yMax;
-            velocity.z = 0;
+            velocity.z *= -1f * bounciness;
         }
 
 
-
         transform.localPosition = newPosition;
+
     }
 }
