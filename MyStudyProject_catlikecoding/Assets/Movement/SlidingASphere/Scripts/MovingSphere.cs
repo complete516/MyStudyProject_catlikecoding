@@ -38,18 +38,44 @@ public class MovingSphere : MonoBehaviour
         {
             velocity.x = Mathf.Min(velocity.x + maxSpeedChange, desiredVelocity.x);
         }
-        else {
+        else
+        {
             velocity.x = Mathf.Min(velocity.x - maxSpeedChange, desiredVelocity.x);
         }
 
-        velocity.x = Mathf.MoveTowards(velocity.x,desiredVelocity.x,maxSpeedChange);
-        velocity.z = Mathf.MoveTowards(velocity.z,desiredVelocity.z,maxSpeedChange);
+        velocity.x = Mathf.MoveTowards(velocity.x, desiredVelocity.x, maxSpeedChange);
+        velocity.z = Mathf.MoveTowards(velocity.z, desiredVelocity.z, maxSpeedChange);
 
         Vector3 displacement = velocity * Time.deltaTime;
         Vector3 newPosition = transform.localPosition + displacement;
-        if (!allowedArea.Contains(new Vector2(newPosition.x,newPosition.z))) {
-            newPosition = transform.localPosition;
+        //if (!allowedArea.Contains(new Vector2(newPosition.x,newPosition.z))) {
+        //    newPosition = transform.localPosition;
+        //}
+
+        if (newPosition.x < allowedArea.xMin)
+        {
+            newPosition.x = allowedArea.xMin;
+            velocity.x = 0;
         }
+        else if (newPosition.x > allowedArea.xMax)
+        {
+            newPosition.x = allowedArea.xMax;
+            velocity.x = 0;
+        }
+
+
+        if (newPosition.z < allowedArea.yMin)
+        {
+            newPosition.z = allowedArea.yMin;
+            velocity.z = 0;
+        }
+        else if (newPosition.z > allowedArea.yMax)
+        {
+            newPosition.z = allowedArea.yMax;
+            velocity.z = 0;
+        }
+
+
 
         transform.localPosition = newPosition;
     }
