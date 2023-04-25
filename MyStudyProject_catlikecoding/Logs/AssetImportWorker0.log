@@ -1,0 +1,1002 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.6f1c1 (c884b0ebb9b3) revision 13141168'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.2846; Version 2009; 64bit' Language: 'zh' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+F:\GameEngines\Unity\unity2019419\Editor\2020.3.6f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Study/unity3d/MyStudyProject_catlikecoding/MyStudyProject_catlikecoding
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50149
+Successfully changed project path to: E:/Study/unity3d/MyStudyProject_catlikecoding/MyStudyProject_catlikecoding
+E:/Study/unity3d/MyStudyProject_catlikecoding/MyStudyProject_catlikecoding
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 19.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1c1 (c884b0ebb9b3)
+[Subsystems] Discovering subsystems at path F:/GameEngines/Unity/unity2019419/Editor/2020.3.6f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Study/unity3d/MyStudyProject_catlikecoding/MyStudyProject_catlikecoding/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   
+    VRAM:     8019 MB
+    Driver:   31.0.15.2849
+Initialize mono
+Mono path[0] = 'F:/GameEngines/Unity/unity2019419/Editor/2020.3.6f1c1/Editor/Data/Managed'
+Mono path[1] = 'F:/GameEngines/Unity/unity2019419/Editor/2020.3.6f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/GameEngines/Unity/unity2019419/Editor/2020.3.6f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/GameEngines/Unity/unity2019419/Editor/2020.3.6f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000698 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 19.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.449 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001248 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.575 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1509 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.1 MB.
+System memory in use after: 68.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1945.
+Total: 1.675700 ms (FindLiveObjects: 0.178700 ms CreateObjectMapping: 0.036900 ms MarkObjects: 1.414300 ms  DeleteObjects: 0.044400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Movement/SlidingASphere/SlidingASphere.unity
+  artifactKey: Guid(a8fa3dc8bd4fc2146aabeca2a435670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/SlidingASphere/SlidingASphere.unity using Guid(a8fa3dc8bd4fc2146aabeca2a435670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a5255a7b96c4c188fa86e124cccb20') in 0.023784 seconds
+  Import took 0.034836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.834879 seconds.
+  path: Assets/Movement/SlidingASphere/Scripts/MovingSphere.cs
+  artifactKey: Guid(22c58e8a78c16c141b19c20fd3d44d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/SlidingASphere/Scripts/MovingSphere.cs using Guid(22c58e8a78c16c141b19c20fd3d44d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f70c2c8ef0f117f7fbcb2d4d7c8b1b') in 0.013259 seconds
+  Import took 0.121658 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001227 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.598 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.0 MB.
+System memory in use after: 68.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1948.
+Total: 1.533000 ms (FindLiveObjects: 0.132700 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.346800 ms  DeleteObjects: 0.013500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001225 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.554 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.0 MB.
+System memory in use after: 68.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1951.
+Total: 1.635600 ms (FindLiveObjects: 0.159100 ms CreateObjectMapping: 0.045700 ms MarkObjects: 1.418300 ms  DeleteObjects: 0.012000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.209230 seconds.
+  path: Assets/Movement/SlidingASphere/Scripts/MovingSphere.cs
+  artifactKey: Guid(22c58e8a78c16c141b19c20fd3d44d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/SlidingASphere/Scripts/MovingSphere.cs using Guid(22c58e8a78c16c141b19c20fd3d44d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37c23d24869040d4d660ad7d50954c6') in 0.003752 seconds
+  Import took 0.035948 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001188 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.545 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.0 MB.
+System memory in use after: 68.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1954.
+Total: 1.573500 ms (FindLiveObjects: 0.114200 ms CreateObjectMapping: 0.039900 ms MarkObjects: 1.407300 ms  DeleteObjects: 0.011200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001451 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.592 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.0 MB.
+System memory in use after: 68.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1957.
+Total: 1.716900 ms (FindLiveObjects: 0.199900 ms CreateObjectMapping: 0.049800 ms MarkObjects: 1.452000 ms  DeleteObjects: 0.014100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 823.568242 seconds.
+  path: Assets/Movement/SlidingASphere/Scripts/MovingSphere.cs
+  artifactKey: Guid(22c58e8a78c16c141b19c20fd3d44d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/SlidingASphere/Scripts/MovingSphere.cs using Guid(22c58e8a78c16c141b19c20fd3d44d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f670f1d255bf9ed7855b8bfce73a431') in 0.004045 seconds
+  Import took 0.005851 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001435 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.555 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.0 MB.
+System memory in use after: 68.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1960.
+Total: 1.448900 ms (FindLiveObjects: 0.129500 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.271200 ms  DeleteObjects: 0.011700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.842624 seconds.
+  path: Assets/Movement/SlidingASphere/Scripts/MovingSphere.cs
+  artifactKey: Guid(22c58e8a78c16c141b19c20fd3d44d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/SlidingASphere/Scripts/MovingSphere.cs using Guid(22c58e8a78c16c141b19c20fd3d44d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9cc04f0457b81b94f6078e8f4dd863') in 0.003663 seconds
+  Import took 0.019921 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001323 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.585 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.0 MB.
+System memory in use after: 68.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1963.
+Total: 1.732600 ms (FindLiveObjects: 0.183500 ms CreateObjectMapping: 0.037700 ms MarkObjects: 1.497400 ms  DeleteObjects: 0.013500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 596.389219 seconds.
+  path: Assets/Movement/SlidingASphere/Scripts/MovingSphere.cs
+  artifactKey: Guid(22c58e8a78c16c141b19c20fd3d44d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/SlidingASphere/Scripts/MovingSphere.cs using Guid(22c58e8a78c16c141b19c20fd3d44d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ccd17b37bbefd82c51eee4726849c8') in 0.003896 seconds
+  Import took 0.005812 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001303 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.564 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.0 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1966.
+Total: 1.675600 ms (FindLiveObjects: 0.153900 ms CreateObjectMapping: 0.046000 ms MarkObjects: 1.462900 ms  DeleteObjects: 0.012100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.271120 seconds.
+  path: Assets/Movement/SlidingASphere/Scripts/MovingSphere.cs
+  artifactKey: Guid(22c58e8a78c16c141b19c20fd3d44d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/SlidingASphere/Scripts/MovingSphere.cs using Guid(22c58e8a78c16c141b19c20fd3d44d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589f03cc7b0e350dac690f43e28a9f17') in 0.003519 seconds
+  Import took 0.022659 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001178 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.544 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1503 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.0 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1969.
+Total: 1.489000 ms (FindLiveObjects: 0.119600 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.313100 ms  DeleteObjects: 0.013300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 550.865287 seconds.
+  path: Assets/Movement/Physics
+  artifactKey: Guid(66d31da3a4b4d6643991a20a2ac2f8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/Physics using Guid(66d31da3a4b4d6643991a20a2ac2f8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf155555337c047ecb13446f138260e') in 0.003930 seconds
+  Import took 0.027841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.553896 seconds.
+  path: Assets/Movement/SlidingASphere/Material
+  artifactKey: Guid(365fca75b06ec884094eca94e0a0c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/SlidingASphere/Material using Guid(365fca75b06ec884094eca94e0a0c96a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36580e661bf7da363aaf8249c2650f5e') in 0.001569 seconds
+  Import took 0.023760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.199631 seconds.
+  path: Assets/Movement/SlidingASphere/SlidingASphere 1.unity
+  artifactKey: Guid(3470004df75245c478a63e87f1c606b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/SlidingASphere/SlidingASphere 1.unity using Guid(3470004df75245c478a63e87f1c606b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae54b1cc636f085af74093309efe4335') in 0.005080 seconds
+  Import took 0.006991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013899 seconds.
+  path: Assets/Movement/SlidingASphere/SlidingASphere 1.unity
+  artifactKey: Guid(3470004df75245c478a63e87f1c606b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/SlidingASphere/SlidingASphere 1.unity using Guid(3470004df75245c478a63e87f1c606b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae54b1cc636f085af74093309efe4335') in 0.001276 seconds
+  Import took 0.002634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.527870 seconds.
+  path: Assets/Movement/Physics/Physics.unity
+  artifactKey: Guid(a8fa3dc8bd4fc2146aabeca2a435670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/Physics/Physics.unity using Guid(a8fa3dc8bd4fc2146aabeca2a435670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef8af2c5b99aef50e5830bec53bf092') in 0.001757 seconds
+  Import took 0.003727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013339 seconds.
+  path: Assets/Movement/Physics/Physics.unity
+  artifactKey: Guid(a8fa3dc8bd4fc2146aabeca2a435670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/Physics/Physics.unity using Guid(a8fa3dc8bd4fc2146aabeca2a435670d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef8af2c5b99aef50e5830bec53bf092') in 0.001586 seconds
+  Import took 0.002979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.818059 seconds.
+  path: Assets/Movement/SlidingASphere/Scripts 1
+  artifactKey: Guid(648a2b3f04e089e4c99430d257af100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/SlidingASphere/Scripts 1 using Guid(648a2b3f04e089e4c99430d257af100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7570da60f0585fd08208646cbfbe506') in 0.001583 seconds
+  Import took 0.003609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.989558 seconds.
+  path: Assets/Movement/SlidingASphere/Material 1
+  artifactKey: Guid(1eba0c30e96483c4d8a183443f5b90db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/SlidingASphere/Material 1 using Guid(1eba0c30e96483c4d8a183443f5b90db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09f1f7beb63c8cd37e5187d4378df08') in 0.001504 seconds
+  Import took 0.003387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.552459 seconds.
+  path: Assets/Movement/Physics/Scripts
+  artifactKey: Guid(648a2b3f04e089e4c99430d257af100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/Physics/Scripts using Guid(648a2b3f04e089e4c99430d257af100c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42276928ca9616cbe66ffffdf75670ea') in 0.001550 seconds
+  Import took 0.004087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.824227 seconds.
+  path: Assets/Movement/Physics/Material
+  artifactKey: Guid(1eba0c30e96483c4d8a183443f5b90db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/Physics/Material using Guid(1eba0c30e96483c4d8a183443f5b90db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdf03862ae9e4802e8ded4823d09603') in 0.001402 seconds
+  Import took 0.003183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.966209 seconds.
+  path: Assets/Movement/Physics/Scripts/MovingSphere.cs
+  artifactKey: Guid(60b253fb38a368a408346f68c70442f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/Physics/Scripts/MovingSphere.cs using Guid(60b253fb38a368a408346f68c70442f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3089bced1a1d5042a3b65c15f514ad52') in 0.001321 seconds
+  Import took 0.003087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Movement/Physics/Scripts/MovingSphere.cs
+  artifactKey: Guid(60b253fb38a368a408346f68c70442f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/Physics/Scripts/MovingSphere.cs using Guid(60b253fb38a368a408346f68c70442f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3089bced1a1d5042a3b65c15f514ad52') in 0.000968 seconds
+  Import took 0.002088 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001284 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.547 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.1 MB.
+System memory in use after: 68.2 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1973.
+Total: 1.498500 ms (FindLiveObjects: 0.143900 ms CreateObjectMapping: 0.034600 ms MarkObjects: 1.307400 ms  DeleteObjects: 0.011400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.406200 seconds.
+  path: Assets/Movement/SlidingASphere/Material/GroudMaterial.mat
+  artifactKey: Guid(53f75886612f5bd42a522a3b50e31038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/SlidingASphere/Material/GroudMaterial.mat using Guid(53f75886612f5bd42a522a3b50e31038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2550821abde6359c92013a30b8bb13') in 0.062346 seconds
+  Import took 0.064545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Movement/SlidingASphere/Material/PlaneMaterial.mat
+  artifactKey: Guid(70c78da556b93cf4d80d38510853a8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/SlidingASphere/Material/PlaneMaterial.mat using Guid(70c78da556b93cf4d80d38510853a8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79654d616a38c3e7a381a222efda846') in 0.007152 seconds
+  Import took 0.008734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Movement/SlidingASphere/Material/GroudMaterial.mat
+  artifactKey: Guid(53f75886612f5bd42a522a3b50e31038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/SlidingASphere/Material/GroudMaterial.mat using Guid(53f75886612f5bd42a522a3b50e31038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2550821abde6359c92013a30b8bb13') in 0.028160 seconds
+  Import took 0.029733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Movement/SlidingASphere/Material/SphereMaterial.mat
+  artifactKey: Guid(89704b78c23e9314eb3f02e6f3ee3535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/SlidingASphere/Material/SphereMaterial.mat using Guid(89704b78c23e9314eb3f02e6f3ee3535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b6200a60cbe5d218e552e675954b85') in 0.011176 seconds
+  Import took 0.012660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.068697 seconds.
+  path: Assets/Movement/Physics/Material/GroudMaterial.mat
+  artifactKey: Guid(388813b0df04873479be24385f09deb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/Physics/Material/GroudMaterial.mat using Guid(388813b0df04873479be24385f09deb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11af710c9f07b3733fea799a460ede36') in 0.005949 seconds
+  Import took 0.008037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Movement/Physics/Material/PlaneMaterial.mat
+  artifactKey: Guid(06b27f36e09ac214ea82281d9913bb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/Physics/Material/PlaneMaterial.mat using Guid(06b27f36e09ac214ea82281d9913bb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518823e0e2532e33fb104f31f4f05fc6') in 0.008967 seconds
+  Import took 0.010357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Movement/Physics/Material/SphereMaterial.mat
+  artifactKey: Guid(1c893ce4f936f864dbd085de6a99cdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/Physics/Material/SphereMaterial.mat using Guid(1c893ce4f936f864dbd085de6a99cdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7973c085a125051e16c65c7fea8196e1') in 0.004938 seconds
+  Import took 0.006278 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001144 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.585 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2016.
+Total: 1.456800 ms (FindLiveObjects: 0.136000 ms CreateObjectMapping: 0.038500 ms MarkObjects: 1.270200 ms  DeleteObjects: 0.011200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001113 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.541 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2019.
+Total: 1.598200 ms (FindLiveObjects: 0.131600 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.416300 ms  DeleteObjects: 0.011800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001179 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.557 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2022.
+Total: 1.602900 ms (FindLiveObjects: 0.154100 ms CreateObjectMapping: 0.047900 ms MarkObjects: 1.388400 ms  DeleteObjects: 0.011800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001171 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.539 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2025.
+Total: 1.518000 ms (FindLiveObjects: 0.190100 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.274700 ms  DeleteObjects: 0.010800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001219 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.540 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2028.
+Total: 1.909000 ms (FindLiveObjects: 0.325400 ms CreateObjectMapping: 0.035800 ms MarkObjects: 1.524100 ms  DeleteObjects: 0.022700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001172 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.560 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.4 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2031.
+Total: 1.621100 ms (FindLiveObjects: 0.175600 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.398200 ms  DeleteObjects: 0.014000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001143 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.564 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2034.
+Total: 1.588500 ms (FindLiveObjects: 0.142800 ms CreateObjectMapping: 0.042300 ms MarkObjects: 1.389700 ms  DeleteObjects: 0.012900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001277 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.588 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2037.
+Total: 1.668000 ms (FindLiveObjects: 0.186900 ms CreateObjectMapping: 0.060300 ms MarkObjects: 1.406600 ms  DeleteObjects: 0.013200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 591.072014 seconds.
+  path: Assets/Movement/Physics/PhysicsMaterial
+  artifactKey: Guid(464c6806bf1e5124f91adb8db4a41071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/Physics/PhysicsMaterial using Guid(464c6806bf1e5124f91adb8db4a41071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc358779230df8da59d37f906740e4c1') in 0.004355 seconds
+  Import took 0.006390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.636385 seconds.
+  path: Assets/Movement/Physics/PhysicsMaterial/New Physic Material.physicMaterial
+  artifactKey: Guid(08d65d246d68c4a40a1fa963ea17554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/Physics/PhysicsMaterial/New Physic Material.physicMaterial using Guid(08d65d246d68c4a40a1fa963ea17554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9242751506d277e5e70845c68defb651') in 0.006937 seconds
+  Import took 0.009074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000906 seconds.
+  path: Assets/Movement/Physics/PhysicsMaterial/New Physic Material.physicMaterial
+  artifactKey: Guid(08d65d246d68c4a40a1fa963ea17554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/Physics/PhysicsMaterial/New Physic Material.physicMaterial using Guid(08d65d246d68c4a40a1fa963ea17554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9242751506d277e5e70845c68defb651') in 0.001317 seconds
+  Import took 0.002567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.175852 seconds.
+  path: Assets/Movement/Physics/PhysicsMaterial/Sphere Physic Material.physicMaterial
+  artifactKey: Guid(08d65d246d68c4a40a1fa963ea17554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/Physics/PhysicsMaterial/Sphere Physic Material.physicMaterial using Guid(08d65d246d68c4a40a1fa963ea17554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e689446f16789471687c996621b8417b') in 0.002066 seconds
+  Import took 0.004058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.044926 seconds.
+  path: Assets/Movement/Physics/PhysicsMaterial/Sphere Physic Material.physicMaterial
+  artifactKey: Guid(08d65d246d68c4a40a1fa963ea17554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Movement/Physics/PhysicsMaterial/Sphere Physic Material.physicMaterial using Guid(08d65d246d68c4a40a1fa963ea17554c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de2cc32eb835d25378367d59e5068e2') in 0.001851 seconds
+  Import took 0.003832 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001403 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.584 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2040.
+Total: 1.676400 ms (FindLiveObjects: 0.244500 ms CreateObjectMapping: 0.031100 ms MarkObjects: 1.386700 ms  DeleteObjects: 0.013500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001212 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.567 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2043.
+Total: 1.840300 ms (FindLiveObjects: 0.201400 ms CreateObjectMapping: 0.039400 ms MarkObjects: 1.579300 ms  DeleteObjects: 0.019400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001286 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.581 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2046.
+Total: 1.627300 ms (FindLiveObjects: 0.241400 ms CreateObjectMapping: 0.039800 ms MarkObjects: 1.265300 ms  DeleteObjects: 0.012500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001246 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.573 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2049.
+Total: 1.663800 ms (FindLiveObjects: 0.191100 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.423100 ms  DeleteObjects: 0.012600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001300 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.578 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2052.
+Total: 1.819000 ms (FindLiveObjects: 0.207700 ms CreateObjectMapping: 0.040100 ms MarkObjects: 1.555500 ms  DeleteObjects: 0.014400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001155 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.585 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2055.
+Total: 1.778200 ms (FindLiveObjects: 0.178700 ms CreateObjectMapping: 0.049100 ms MarkObjects: 1.535300 ms  DeleteObjects: 0.014500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001255 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.591 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2058.
+Total: 2.521500 ms (FindLiveObjects: 0.240500 ms CreateObjectMapping: 0.035500 ms MarkObjects: 2.218800 ms  DeleteObjects: 0.025300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001567 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.579 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2061.
+Total: 1.800700 ms (FindLiveObjects: 0.178200 ms CreateObjectMapping: 0.044700 ms MarkObjects: 1.562900 ms  DeleteObjects: 0.014200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001224 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Study\unity3d\MyStudyProject_catlikecoding\MyStudyProject_catlikecoding\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.566 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1504 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.5 MB.
+System memory in use after: 71.6 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2064.
+Total: 1.907500 ms (FindLiveObjects: 0.227500 ms CreateObjectMapping: 0.060800 ms MarkObjects: 1.604100 ms  DeleteObjects: 0.014300 ms)
+
+========================================================================
+Received Prepare
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Trying to reload asset but can't find object on disk
+
+Registering precompiled user dll's ...
+Registered in 0.000451 seconds.
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
+
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
+
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
+
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
+
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
+
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
+
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+
+Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
+
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
+
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
+
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
+
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
+
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
+
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
+
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+
+Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
+
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Required property 'name' not set (Packages/com.unity.services.core/Editor/Core/Unity.Services.Core.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.ide.vscode/Editor/Unity.com.unity.vscode.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Runtime/Unity.TextMeshPro.Tests.asmdef)
+
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Editor/Unity.TextMeshPro.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.ide.visualstudio/Editor/com.unity.ide.visualstudio.asmdef)
+
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEngine.TestRunner/UnityEngine.TestRunner.asmdef)
+
+Required property 'name' not set (Packages/com.unity.timeline/Editor/Unity.Timeline.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.timeline/Runtime/Unity.Timeline.asmdef)
+
+Required property 'name' not set (Packages/com.unity.textmeshpro/Scripts/Runtime/Unity.TextMeshPro.asmdef)
+
+Required property 'name' not set (Packages/com.unity.textmeshpro/Tests/Editor/Unity.TextMeshPro.Editor.Tests.asmdef)
+
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/Collaborate/Unity.CollabProxy.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/Collaborate/Unity.CollabProxy.EditorTests.asmdef)
+
+Required property 'name' not set (Packages/com.unity.test-framework/UnityEditor.TestRunner/UnityEditor.TestRunner.asmdef)
+
+Required property 'name' not set (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
+
+Required property 'name' not set (Packages/com.unity.collab-proxy/Tests/Editor/PlasticSCM/Unity.PlasticSCM.EditorTests.asmdef)
+
+Required property 'name' not set (Packages/com.unity.timeline/DocCodeExamples/DocCodeExamples.asmdef)
+
+Required property 'name' not set (Packages/com.unity.ide.rider/Rider/Editor/com.unity.ide.rider.asmdef)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.484 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 30.8 MB.
+System memory in use after: 30.9 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 570.
+Total: 1.158100 ms (FindLiveObjects: 0.056400 ms CreateObjectMapping: 0.002400 ms MarkObjects: 1.096200 ms  DeleteObjects: 0.002500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
