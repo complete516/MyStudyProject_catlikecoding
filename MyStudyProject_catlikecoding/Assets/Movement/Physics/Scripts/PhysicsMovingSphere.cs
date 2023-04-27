@@ -18,10 +18,15 @@ public class PhysicsMovingSphere : MonoBehaviour
     // private float bounciness = 0.5f;
 
     private Rigidbody body;
-    [SerializeField,Range(0f,10f)]
+    [SerializeField, Range(0f, 10f)]
     private float jumpHeight = 2f;
+    [SerializeField, Range(0f, 10f)]
+    private int maxAirJumps = 0;
 
+    int jumpPhase;
     Vector3 velocity, desiredVelocity;
+
+    private bool onGround; //‘⁄µÿ…œ
     void Start()
     {
         body = GetComponent<Rigidbody>();
@@ -55,8 +60,7 @@ public class PhysicsMovingSphere : MonoBehaviour
 
     private void FixedUpdate()
     {
-        velocity = body.velocity;
-
+        UpdateState();
 
         float maxSpeedChange = maxAcceleration * Time.deltaTime;
 
@@ -71,11 +75,56 @@ public class PhysicsMovingSphere : MonoBehaviour
         }
 
         body.velocity = velocity;
+        onGround = false;
     }
 
+    void UpdateState()
+    {
+        velocity = body.velocity;
+        if (onGround)
+        {
+            jumpPhase = 0;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        onGround = true; ;
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        onGround = true;
+    }
+
+
+    //private void OnCollisionExit(Collision collision)
+    //{
+    //    onGround = false;
+    //}
     void Jump()
     {
-        velocity.y += Mathf.Sqrt(-2*Physics.gravity.y * jumpHeight);
+        if (onGround || jumpPhase < maxAirJumps)
+        {
+            jumpPhase += 1;
 
+             float jumpSpeed = Mathf.Sqrt(-2 * Physics.gravity.y * jumpHeight);
+            if (velocity.y > 0)
+            {
+                jumpSpeed = Mathf.Max(jumpSpeed - velocity.y,0f);
+            }
+            velocity.y += jumpSpeed;
+
+        }
+
+    }
+
+    private void EvaluateCollision(Collision collision)
+    {
+        for (int i = 0; i < collision.contactCount; i++)
+        {
+            Vector3 normal = collision.GetContact(i).normal;
+            onGround |= normal.y >= 0.9f;
+        }
     }
 }
