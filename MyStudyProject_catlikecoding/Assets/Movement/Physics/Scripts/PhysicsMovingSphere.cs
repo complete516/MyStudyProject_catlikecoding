@@ -9,17 +9,13 @@ public class PhysicsMovingSphere : MonoBehaviour
     float maxSpeed = 10f;
 
     [SerializeField, Range(0f, 100f)]
-    float maxAcceleration = 10f;
+    float maxAcceleration = 10f, maxAirAcceleration = 1f;
     bool desiredJump;
-    // [SerializeField]
-    // Rect allowedArea = new Rect(-5f, -5f, 10f, 10f);
-
-    // [SerializeField, Range(0.1f, 1f)]
-    // private float bounciness = 0.5f;
 
     private Rigidbody body;
     [SerializeField, Range(0f, 10f)]
     private float jumpHeight = 2f;
+
     [SerializeField, Range(0f, 10f)]
     private int maxAirJumps = 0;
 
@@ -27,6 +23,7 @@ public class PhysicsMovingSphere : MonoBehaviour
     Vector3 velocity, desiredVelocity;
 
     private bool onGround; //‘⁄µÿ…œ
+
     void Start()
     {
         body = GetComponent<Rigidbody>();
@@ -35,9 +32,6 @@ public class PhysicsMovingSphere : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
-
         Vector2 playerInput = Vector2.zero;
         playerInput.x = Input.GetAxis("Horizontal");
         playerInput.y = Input.GetAxis("Vertical");
@@ -47,23 +41,14 @@ public class PhysicsMovingSphere : MonoBehaviour
 
 
         desiredJump |= Input.GetButtonDown("Jump");
-        // if (velocity.x < desiredVelocity.x)
-        // {
-        //     velocity.x = Mathf.Min(velocity.x + maxSpeedChange, desiredVelocity.x);
-        // }
-        // else if(velocity.x > desiredVelocity.x)
-        // {
-        //     velocity.x = Mathf.Min(velocity.x - maxSpeedChange, desiredVelocity.x);
-        // }
-
     }
 
     private void FixedUpdate()
     {
         UpdateState();
 
-        float maxSpeedChange = maxAcceleration * Time.deltaTime;
-
+        float acceleration = onGround ? maxAcceleration : maxAirAcceleration;
+        float maxSpeedChange = acceleration * Time.deltaTime;
 
         velocity.x = Mathf.MoveTowards(velocity.x, desiredVelocity.x, maxSpeedChange);
         velocity.z = Mathf.MoveTowards(velocity.z, desiredVelocity.z, maxSpeedChange);
@@ -108,10 +93,10 @@ public class PhysicsMovingSphere : MonoBehaviour
         {
             jumpPhase += 1;
 
-             float jumpSpeed = Mathf.Sqrt(-2 * Physics.gravity.y * jumpHeight);
+            float jumpSpeed = Mathf.Sqrt(-2 * Physics.gravity.y * jumpHeight);
             if (velocity.y > 0)
             {
-                jumpSpeed = Mathf.Max(jumpSpeed - velocity.y,0f);
+                jumpSpeed = Mathf.Max(jumpSpeed - velocity.y, 0f);
             }
             velocity.y += jumpSpeed;
 
