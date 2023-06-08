@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Movement/03SurfaceContact/03Stairs.unity
+- path: Assets/MeshBasics/ProceduralGrid/ProceduralGrid.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
